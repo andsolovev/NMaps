@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="menu_edit">Редактировать</string>
+    <string name="menu_delete">Удалить</string>
+    <string name="menu_back">Назад</string>
+    <string name="menu_my_places">My places</string>
+</resources>

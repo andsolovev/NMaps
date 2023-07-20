@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">NMaps</string>
+    <string name="my_places">My places</string>
+    <string name="add_to_list">Add to My list:</string>
+    <string name="place_title">Title:</string>
+    <string name="place_description">Description:</string>
+    <string name="add_edit_button">Add/edit button</string>
+    <string name="cansel_button">Cansel button</string>
+    <string name="menu_button">Menu button</string>
+    <string name="empty_list">The list is empty. Mark the places you would like to visit on the map.</string>
+    <string name="clear_list">Clear list</string>
+    <string name="menu_edit">Edit</string>
+    <string name="menu_delete">Delete</string>
+    <string name="menu_back">Back</string>
+    <string name="menu_my_places">My places</string>
+</resources>

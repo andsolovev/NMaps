@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">NMaps</string>
+    <string name="my_places">Мои места</string>
+    <string name="add_to_list">Добавить в Мой список:</string>
+    <string name="place_title">Наименование:</string>
+    <string name="place_description">Описание:</string>
+    <string name="add_edit_button">Кнопка добавления/редактирования</string>
+    <string name="cansel_button">Кнопка отмены</string>
+    <string name="menu_button">Кнопка меню</string>
+    <string name="empty_list">Пока список пуст. Отметьте на карте места, которые хотели бы посетить.</string>
+    <string name="clear_list">Очистить список</string>
+    <string name="menu_edit">Редактировать</string>
+    <string name="menu_delete">Удалить</string>
+    <string name="menu_back">Назад</string>
+    <string name="menu_my_places">Мои места</string>
+</resources>
