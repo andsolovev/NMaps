@@ -198,38 +198,42 @@ class MapsFragment : Fragment(), GoogleMap.OnPoiClickListener, GoogleMap.OnMapCl
 
     @SuppressLint("ResourceType")
     override fun onPoiClick(poi: PointOfInterest) {
-        val snack = Snackbar.make(requireView(), poi.name, 7000)
-        snack.setAction("Add") {
-            findNavController().navigate(
-                R.id.action_mapsFragment_to_addFragment,
-                AddFragment.createArguments(
-                    title = poi.name,
-                    lat = poi.latLng.latitude,
-                    long = poi.latLng.longitude,
-                    heading = "Добавить в Мой список:"
+        Snackbar.make(requireView(), poi.name, 7000).apply {
+            setAction("Add") {
+                findNavController().navigate(
+                    R.id.action_mapsFragment_to_addFragment,
+                    AddFragment.createArguments(
+                        title = poi.name,
+                        lat = poi.latLng.latitude,
+                        long = poi.latLng.longitude,
+                        heading = "Добавить в Мой список:"
+                    )
                 )
-            )
+            }
+            setTextMaxLines(2)
+            setTextColor(R.color.black)
+            show()
         }
-        snack.setTextMaxLines(2)
-        snack.show()
     }
 
+    @SuppressLint("ResourceAsColor")
     override fun onMapClick(point: LatLng) {
-        val snack = Snackbar.make(
+        Snackbar.make(
             requireView(),
             """Точка с координатами:
                 | ${point.latitude}, ${point.longitude}
             """.trimMargin(),
             5000
-        )
-        snack.setAction("Add") {
-            findNavController().navigate(
-                R.id.action_mapsFragment_to_addFragment,
-                AddFragment.createArguments(lat = point.latitude, long = point.longitude)
-            )
+        ).apply {
+            setAction("Add") {
+                findNavController().navigate(
+                    R.id.action_mapsFragment_to_addFragment,
+                    AddFragment.createArguments(lat = point.latitude, long = point.longitude)
+                )
+            }
+            setTextMaxLines(2)
+            setTextColor(R.color.black)
+            show()
         }
-
-        snack.setTextMaxLines(2)
-        snack.show()
     }
 }
