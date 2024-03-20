@@ -1,5 +1,6 @@
-#NMaps
-The app is designed for travellers and based on Google Maps.
+# NMaps
+
+This simple app is designed for travellers and based on Google Maps.
 
 The user can click on the map and create a marker with a description in place of the click.
 
