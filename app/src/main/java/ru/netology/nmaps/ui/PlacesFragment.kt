@@ -20,7 +20,7 @@ import kotlinx.coroutines.launch
 import ru.netology.nmaps.R
 import ru.netology.nmaps.adapter.PlaceAdapter
 import ru.netology.nmaps.databinding.FragmentPlacesBinding
-import ru.netology.nmaps.db.dto.Place
+import ru.netology.nmaps.dto.Place
 import ru.netology.nmaps.viewmodel.PlaceViewModel
 
 class PlacesFragment : Fragment() {

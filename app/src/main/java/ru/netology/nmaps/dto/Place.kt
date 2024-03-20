@@ -1,4 +1,4 @@
-package ru.netology.nmaps.db.dto
+package ru.netology.nmaps.dto
 
 data class Place(
     val id: Long,

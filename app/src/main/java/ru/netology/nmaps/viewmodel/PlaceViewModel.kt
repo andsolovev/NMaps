@@ -3,7 +3,7 @@ package ru.netology.nmaps.viewmodel
 import android.app.Application
 import androidx.lifecycle.AndroidViewModel
 import ru.netology.nmaps.db.AppDb
-import ru.netology.nmaps.db.dto.Place
+import ru.netology.nmaps.dto.Place
 import ru.netology.nmaps.repository.PlaceRepository
 import ru.netology.nmaps.repository.PlaceRepositoryImpl
 

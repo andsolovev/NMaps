@@ -8,7 +8,7 @@ import androidx.recyclerview.widget.ListAdapter
 import androidx.recyclerview.widget.RecyclerView
 import ru.netology.nmaps.R
 import ru.netology.nmaps.databinding.FragmentPlaceBinding
-import ru.netology.nmaps.db.dto.Place
+import ru.netology.nmaps.dto.Place
 
 class PlaceAdapter(
     private val listener: Listener,

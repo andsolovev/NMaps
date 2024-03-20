@@ -3,7 +3,7 @@ package ru.netology.nmaps.repository
 import kotlinx.coroutines.flow.Flow
 import kotlinx.coroutines.flow.map
 import ru.netology.nmaps.dao.PlaceDao
-import ru.netology.nmaps.db.dto.Place
+import ru.netology.nmaps.dto.Place
 import ru.netology.nmaps.entity.PlaceEntity
 
 interface PlaceRepository {

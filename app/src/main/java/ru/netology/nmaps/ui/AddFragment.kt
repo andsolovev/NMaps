@@ -11,7 +11,7 @@ import androidx.fragment.app.viewModels
 import androidx.navigation.fragment.findNavController
 import ru.netology.nmaps.R
 import ru.netology.nmaps.databinding.FragmentAddBinding
-import ru.netology.nmaps.db.dto.Place
+import ru.netology.nmaps.dto.Place
 import ru.netology.nmaps.viewmodel.PlaceViewModel
 
 class AddFragment : Fragment() {

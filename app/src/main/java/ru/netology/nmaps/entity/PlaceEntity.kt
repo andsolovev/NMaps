@@ -2,7 +2,7 @@ package ru.netology.nmaps.entity
 
 import androidx.room.Entity
 import androidx.room.PrimaryKey
-import ru.netology.nmaps.db.dto.Place
+import ru.netology.nmaps.dto.Place
 
 @Entity
 data class PlaceEntity(
